@@ -25,7 +25,7 @@ public class Imc {
             classificação = "Obesidade grau III";
         }
 
-        String output = "O imc de " + nome + " é: IMC = " + imc + "\nClassificação: " + classificação;
+        String output = "O imc de " + name + " é: IMC = " + imc + "\nClassificação: " + classificação;
         JOptionPane.showMessageDialog(null, output);
     }
 }
